@@ -24,7 +24,29 @@
 // Write your code here 👇
 let yearUserBorn = prompt("What year were you born?");
 let futureYear = prompt("Type in future year");
-message = (futureYear-yearUserBorn-1);
-message2 = (futureYear-yearUserBorn);
+message = futureYear - yearUserBorn - 1;
+message2 = futureYear - yearUserBorn;
 
-document.write( "I will be either " + message + " or " + message2 + " in " + futureYear + " depending on the month.");
+
+
+
+
+
+
+
+
+document.write(
+  "You will be either " +
+    message +
+    " or " +
+    message2 +
+    " in " +
+    futureYear +
+    " depending on the month."
+);
+
+(function () {
+  "#date".datepicker('show');
+});
+
+console.log(date);

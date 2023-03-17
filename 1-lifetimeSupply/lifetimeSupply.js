@@ -43,3 +43,4 @@ let maxAge = 100
 let totalLifetimeNumber = numPerDay * (365 * maxAge - ageNumber);
 document.write("Congratulations," + "you have just won a lifetime supply of " + snack + "!<br/>" + "You will recieve " + numPerDay + " per day!</br>" +
 "For a grand total of " + totalLifetimeNumber);
+
